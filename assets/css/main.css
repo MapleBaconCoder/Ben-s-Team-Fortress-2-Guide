@@ -30,6 +30,10 @@
 		vertical-align: baseline;
 	}
 
+
+
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -605,8 +609,7 @@
 			margin-left: 0;
 		}
 
-		.\31 0u\28xlarge\29, .\31 0u\24\28xlarge\29 {
-			width: 83.3333333333%;
+		.\31 0u\28xlarge\29, .\31 0u\24\28xlarge\29 	width: 83.3333333333%;
 			clear: none;
 			margin-left: 0;
 		}
@@ -2722,7 +2725,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("\http://images3.alphacoders.com/560/thumb-350-56087.jpg"), url("../../images/header.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2736,6 +2739,10 @@
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
 				color: #ffffff;
+			}
+
+			#yomama {
+				text-align:center;
 			}
 
 			.main.style2 header p {
@@ -2800,6 +2807,7 @@
 
 			.main.style2 ul.major-icons li .icon {
 				border-color: #ffffff;
+				text-shadow: 2px 2px 5px black;
 			}
 
 			.main.style2 .icon.major {
